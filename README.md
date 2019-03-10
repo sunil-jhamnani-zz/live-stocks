@@ -1,4 +1,4 @@
-# BMS trailers app
+# Live Stock app
 
 ## How to use
 
