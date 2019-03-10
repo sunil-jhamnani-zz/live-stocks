@@ -65,8 +65,8 @@ class Stocks extends React.Component {
           </div>
         </div>
         {
-          prices.map(([name, price, status]) => (
-            <div className="row all-stocks__stock-row">
+          prices.map(([name, price, status], index) => (
+            <div className="row all-stocks__stock-row" key={index}>
               <div className="col-3 text-center">
                 <span>{name}</span>
               </div>
