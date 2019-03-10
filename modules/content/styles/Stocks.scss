@@ -1,0 +1,23 @@
+.all-stocks {
+  position: relative;
+  top: 200px;
+  background: #fff;
+
+  &__stock-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 2px;
+  }
+
+  &__header-row {
+    background: #95999c !important;
+    border-radius: 5px 5px 0 0;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+
+  &__stock-price {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+  }
+}

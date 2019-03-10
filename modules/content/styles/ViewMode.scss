@@ -1,0 +1,19 @@
+.view-mode {
+  position: relative;
+  top: 93px;
+  right: 10px;
+
+  &__button {
+    &.active {
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,14 @@
+.bar-chart {
+  &__bar {
+    transition: height 0.5s ease-out, width 0.5s ease-out;
+    text-align: center;
+    flex: 1;
+    display: block;
+    border-radius: 0 2px 2px 0;
+    height: 100%;
+  }
+
+  &__value {
+    font-size: 14px;
+  }
+}

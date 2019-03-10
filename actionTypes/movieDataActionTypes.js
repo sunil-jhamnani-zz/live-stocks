@@ -1,0 +1,5 @@
+export const STORE_LANGUAGES = 'STORE_LANGUAGES';
+export const STORE_MOVIES = 'STORE_MOVIES';
+export const TOGGLE_VIDEO_STATE = 'TOGGLE_VIDEO_STATE';
+export const UPDATE_FILTER = 'UPDATE_FILTER';
+export const ADD_FILTER = 'ADD_FILTER';

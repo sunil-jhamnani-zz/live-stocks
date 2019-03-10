@@ -1,0 +1,18 @@
+.status-tag {
+  padding: 4px 13px;
+  font-size: 12px;
+  border-radius: 11px;
+  color: #fff;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+
+  &__arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+  }
+}
