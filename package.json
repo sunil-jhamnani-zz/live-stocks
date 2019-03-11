@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.3.0",
